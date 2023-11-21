@@ -1,0 +1,10 @@
+pretty_midi
+numpy
+librosa
+matplotlib
+yt-dlp
+moviepy
+imageio==2.30.0
+keras
+tensorflow
+azure-storage-blob

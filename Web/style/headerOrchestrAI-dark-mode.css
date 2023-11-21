@@ -1,0 +1,59 @@
+[data-theme="dark"] .page-holder .container-fluid, [data-theme="dark"] .sticky-wrapper, [data-theme="dark"] .sign-in .container-fluid,[data-theme="dark"] footer{
+  background-color: #152715 !important;
+  color:white !important;
+}
+
+
+[data-theme="dark"] .site-mobile-menu{
+  background-color: #152715 !important;
+  color:white !important;
+}
+
+[data-theme="dark"] .site-mobile-menu .arrow-collapse:hover{
+  background-color: #152715 !important;;
+}
+
+
+[data-theme="dark"] .sign-in input{
+  background: transparent;
+  color: white;
+}
+
+[data-theme="dark"] .sign-in input::placeholder{
+  color: slategrey;
+}
+
+[data-theme="dark"] .ticket-form input{
+  background: transparent;
+  color: white;
+}
+
+[data-theme="dark"] .ticket-form input::placeholder{
+  color: slategrey;
+}
+
+[data-theme="dark"] .sign-in .rememberMe{
+  color: white;
+}
+
+
+[data-theme="dark"] footer .nav-icon{
+  color:lightgrey !important;
+}
+
+[data-theme="dark"] footer .nav-pills .nav-link::before {
+  background-color: white !important;
+}
+
+[data-theme="dark"] footer a p{
+  color:white !important;
+}
+
+[data-theme="dark"] .profil-dropdown-link{
+  color:white !important;
+}
+
+[data-theme="dark"] .dropdown-menu-profile{
+  background-color: #152715 !important;
+  box-shadow: 10px 10px 64px 0px rgba(50,50,70, 0.75);
+}

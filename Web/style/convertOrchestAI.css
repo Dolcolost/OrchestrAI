@@ -1,0 +1,126 @@
+.convert-section{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-inline:5%;
+}
+
+.convert-section > .container-fluid {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 10px 10px 64px 0px rgba(21,21,39, 0.50);
+}
+
+.convert-content{
+  display: flex
+}
+.convert-content, .convert-result{
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.convert-form, .convert-image{
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.convert-result-content{
+    overflow: hidden;
+}
+
+
+.convert-image{
+    margin-top: 10px;
+}
+
+.image img,.image-form img {
+  max-width: 75%;
+}
+
+
+.informations{
+  display: none;
+  text-align: left;
+}
+
+.container-fluid{
+  display: flex;
+  justify-content: center;
+}
+.convert-form{
+  margin-left: 5%;
+}
+
+.input-group{
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.input-group input{
+  display: block;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #999;
+  padding: 6px 0px 6px 10px;
+  box-sizing: border-box;
+  outline: none;
+  width: 50%;
+}
+
+.input-ytb{
+  display: none;
+}
+
+.convert-form .form-title{margin-bottom: 5%;}
+
+.category {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.animation-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fond légèrement flou avec une opacité de 0.5 */
+  z-index: 2;
+  border-radius: 30px;
+  pointer-events: none; /* Empêche l'interaction avec l'overlay */
+  backdrop-filter: blur(4px); /* Applique un flou au contenu de l'overlay */
+}
+
+#animation{
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+}
+
+.controls{
+  background: transparent !important;
+}
+
+
+@media(max-width: 768px){
+  .convert-content {flex-direction: column;}
+  .convert-form, .convert-image{width: auto;}
+  .convert-image{order: 2;}
+  .convert-form{order: 1;}
+
+  .form-title {text-align: center;}
+
+  .convert-image{margin-left: 0;}
+}
